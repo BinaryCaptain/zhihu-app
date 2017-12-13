@@ -1,0 +1,307 @@
+.index-main {
+  height: 100%;
+  min-height: 100%;
+  margin-bottom: -42px; }
+
+.index-main-body {
+  margin: auto;
+  padding: 30px 0 102px;
+  width: 300px; }
+
+.index-header {
+  text-align: center; }
+  .index-header .logo {
+    margin: 0 auto;
+    width: 160px;
+    height: 74px;
+    background: url(images/logo.png) no-repeat;
+    background-size: contain; }
+  .index-header .subtitle {
+    margin: 30px 0 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1; }
+
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0; }
+
+.sign-flow {
+  text-align: center; }
+
+.sign-flow a {
+  color: inherit; }
+
+@media (min-width: 741px) {
+  .index-main {
+    text-align: center;
+    white-space: nowrap;
+    height: 100%;
+    min-height: 720px; }
+  .index-main:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -.25em; }
+  .index-main-body {
+    padding: 0;
+    min-height: 590px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    white-space: normal; } }
+
+@media (min-width: 741px) and (max-height: 600px) {
+  .index-main {
+    height: auto;
+    min-height: auto; } }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    -ms-filter: "alpha(Opacity=0)"; }
+  to {
+    opacity: 1;
+    -ms-filter: "alpha(Opacity=100)"; } }
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -ms-filter: "alpha(Opacity=0)";
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px); }
+  to {
+    opacity: 1;
+    -ms-filter: "alpha(Opacity=100)";
+    -webkit-transform: none;
+    transform: none; } }
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+  -webkit-animation-duration: .2s;
+  animation-duration: .2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; 
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    -ms-filter: "alpha(Opacity=100)"; 
+  }
+  to {
+    opacity: 0;
+    -ms-filter: "alpha(Opacity=0)"; } 
+  }
+
+@keyframes fadeOutDown {
+  from {
+    opacity: 1;
+    -ms-filter: "alpha(Opacity=100)"; 
+  }
+  to {
+    opacity: 0;
+    -ms-filter: "alpha(Opacity=0)";
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px); } }
+
+.fadeOutDown {
+  -webkit-animation-name: fadeOutDown;
+  animation-name: fadeOutDown;
+  -webkit-animation-duration: .2s;
+  animation-duration: .2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; 
+}
+
+.z-ico-play-video,
+.z-ico-wechat-right-panel,
+.z-ico-show-password,
+.z-ico-hide-password,
+.z-ico-weibo,
+.z-ico-wechat-unlogin-page,
+.z-ico-weibo-share,
+.z-ico-wechat-share,
+.z-ico-green-check,
+.z-ico-gray-check,
+.z-ico-daily-share,
+.z-ico-qq,
+.z-ico-wechat,
+.z-ico-textedit,
+.z-ico-shameimaru-close,
+.z-ico-left,
+.z-ico-close,
+.z-ico-community:hover,
+.z-ico-community,
+.z-ico-video,
+.z-ico-extern-gray,
+.z-ico-extern-blue {
+  background-image: url(images/icons.png);
+  background-repeat: no-repeat;
+  background-size: 108px 93px; }
+
+@media screen and (-webkit-min-device-pixel-ratio: 1), screen and (min--moz-device-pixel-ratio: 1), screen and (min-device-pixel-ratio: 1), screen and (min-resolution: 1dppx) {
+  .z-ico-play-video,
+  .z-ico-wechat-right-panel,
+  .z-ico-show-password,
+  .z-ico-hide-password,
+  .z-ico-weibo,
+  .z-ico-wechat-unlogin-page,
+  .z-ico-weibo-share,
+  .z-ico-wechat-share,
+  .z-ico-green-check,
+  .z-ico-gray-check,
+  .z-ico-daily-share,
+  .z-ico-qq,
+  .z-ico-wechat,
+  .z-ico-textedit,
+  .z-ico-shameimaru-close,
+  .z-ico-left,
+  .z-ico-close,
+  .z-ico-community:hover,
+  .z-ico-community,
+  .z-ico-video,
+  .z-ico-extern-gray,
+  .z-ico-extern-blue {
+    background-image: url(images/icons.png); } }
+
+@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min--moz-device-pixel-ratio: 2), screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 2dppx) {
+  .z-ico-play-video,
+  .z-ico-wechat-right-panel,
+  .z-ico-show-password,
+  .z-ico-hide-password,
+  .z-ico-weibo,
+  .z-ico-wechat-unlogin-page,
+  .z-ico-weibo-share,
+  .z-ico-wechat-share,
+  .z-ico-green-check,
+  .z-ico-gray-check,
+  .z-ico-daily-share,
+  .z-ico-qq,
+  .z-ico-wechat,
+  .z-ico-textedit,
+  .z-ico-shameimaru-close,
+  .z-ico-left,
+  .z-ico-close,
+  .z-ico-community:hover,
+  .z-ico-community,
+  .z-ico-video,
+  .z-ico-extern-gray,
+  .z-ico-extern-blue {
+    background-image: url(/static/revved/img/compiled/icons@2x_a9b07ecead.58bad5a6.png); } }
+
+.z-ico-play-video {
+  background-position: -1px -1px;
+  width: 38px;
+  height: 38px; }
+
+.z-ico-wechat-right-panel {
+  background-position: -41px -1px;
+  width: 24px;
+  height: 22px; }
+
+.z-ico-show-password {
+  background-position: -41px -25px;
+  width: 21px;
+  height: 13px; }
+
+.z-ico-hide-password {
+  background-position: -1px -41px;
+  width: 21px;
+  height: 13px; }
+
+.z-ico-weibo {
+  background-position: -67px -1px;
+  width: 20px;
+  height: 16px; }
+
+.z-ico-wechat-unlogin-page {
+  background-position: -67px -19px;
+  width: 20px;
+  height: 18px; }
+
+.z-ico-weibo-share {
+  background-position: -1px -56px;
+  width: 18px;
+  height: 18px; }
+
+.z-ico-wechat-share {
+  background-position: -21px -56px;
+  width: 18px;
+  height: 18px; }
+
+.z-ico-green-check {
+  background-position: -41px -56px;
+  width: 18px;
+  height: 18px; }
+
+.z-ico-gray-check {
+  background-position: -61px -56px;
+  width: 18px;
+  height: 18px; }
+
+.z-ico-daily-share {
+  background-position: -89px -1px;
+  width: 18px;
+  height: 18px; }
+
+.z-ico-qq {
+  background-position: -89px -21px;
+  width: 17px;
+  height: 16px; }
+
+.z-ico-wechat {
+  background-position: -89px -39px;
+  width: 16px;
+  height: 15px; }
+
+.z-ico-textedit {
+  background-position: -89px -56px;
+  width: 16px;
+  height: 16px; }
+
+.z-ico-shameimaru-close {
+  background-position: -1px -76px;
+  width: 16px;
+  height: 16px; }
+
+.z-ico-left {
+  background-position: -19px -76px;
+  width: 16px;
+  height: 16px; }
+
+.z-ico-close {
+  background-position: -37px -76px;
+  width: 16px;
+  height: 16px; }
+
+.z-ico-container:hover .z-ico-community,
+.z-ico-community:hover {
+  background-position: -67px -39px;
+  width: 14px;
+  height: 13px; }
+
+.z-ico-community {
+  background-position: -24px -41px;
+  width: 14px;
+  height: 13px; }
+
+.z-ico-video {
+  background-position: -40px -41px;
+  width: 13px;
+  height: 12px; }
+
+.z-ico-extern-gray {
+  background-position: -55px -41px;
+  width: 7px;
+  height: 7px; }
+
+.z-ico-extern-blue {
+  background-position: -55px -76px;
+  width: 7px;
+  height: 7px; }

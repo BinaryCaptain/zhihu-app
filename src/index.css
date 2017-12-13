@@ -1,0 +1,33 @@
+html,
+body {
+	height: 100%
+}
+
+body {
+  color: #555;
+	font-size: 15px;
+	line-height: 1.7;
+	font-family: 'Helvetica Neue',Helvetica,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif;
+	background: #f7fafc;
+	-webkit-font-smoothing: subpixel-antialiased;
+	padding-bottom: 60px;
+}
+
+.wrapper,#root{
+	height: 100%
+}
+
+.clearfix {
+	*zoom: 1
+}
+
+.clearfix:before,
+.clearfix:after {
+	display: table;
+	content: ""
+}
+
+.clearfix:after {
+	clear: both
+}
+

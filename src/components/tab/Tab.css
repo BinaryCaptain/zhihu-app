@@ -1,0 +1,424 @@
+.index-tab-navs {
+  margin-bottom: 10px;
+  font-size: 18px;
+  text-align: center; 
+}
+
+.index-tab-navs .navs-slider {
+  position: relative;
+  display: inline-block; 
+}
+
+.index-tab-navs .navs-slider .navs-slider-bar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin: 0 .8em;
+  width: 2.4em;
+  height: 2px;
+  background: #0f88eb;
+  -webkit-transition: left .15s ease-in;
+  transition: left .15s ease-in; 
+}
+
+.index-tab-navs a {
+  float: left;
+  width: 4em;
+  line-height: 35px;
+  opacity: .7;
+  -ms-filter: "alpha(Opacity=70)";
+  -webkit-transition: opacity .15s, color .15s;
+  transition: opacity .15s, color .15s; 
+}
+
+html.no-touchevents .index-tab-navs a:hover {
+  opacity: 1;
+  -ms-filter: "alpha(Opacity=100)";
+  text-decoration: none; 
+}
+
+.index-tab-navs a.active {
+  opacity: 1;
+  -ms-filter: "alpha(Opacity=100)";
+  color: #0f88eb; 
+}
+
+.sign-button {
+  display: block;
+  padding: 0;
+  width: 100%;
+  font-size: 15px;
+  line-height: 33px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: #80c3f7;
+  background: -webkit-linear-gradient(top, #80c3f7, #6bbaf8);
+  background: linear-gradient(to bottom, #80c3f7, #6bbaf8);
+  border: 1px solid #1D80CF;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 1px 1px rgba(50, 50, 50, 0.05);
+  outline: 0;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent; 
+}
+
+.sign-button:active {
+  color: #eee;
+  border: 1px solid #0971C5;
+  background: -webkit-linear-gradient(top, #5dadec, #51a4e6);
+  background: linear-gradient(to bottom, #5dadec, #51a4e6);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1); 
+}
+
+.sign-button.sign-button-white {
+  color: #484848;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+  background: #f2f5f7;
+  background: -webkit-linear-gradient(top, #f2f5f7, #e0e4e7);
+  background: linear-gradient(to bottom, #f2f5f7, #e0e4e7);
+  border: 1px solid #3b86c2;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 1px rgba(50, 50, 50, 0.05); 
+}
+
+.sign-button.sign-button-white:active {
+  color: #424242;
+  background: -webkit-linear-gradient(top, #cddae2, #c9d4dd);
+  background: linear-gradient(to bottom, #cddae2, #c9d4dd);
+  border: 1px solid #297DC0;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15), 0 1px 0 rgba(255, 255, 255, 0.1); 
+}
+
+.sign-flow .view .input-wrapper,
+.sign-flow .view .button-wrapper,
+.sign-flow .view .signin-misc-wrapper,
+.sign-flow .view .other-signup-wrapper {
+  margin-top: 18px; 
+}
+
+.sign-flow .view .input-wrapper {
+  position: relative; 
+}
+
+.sign-flow .view .input-wrapper input {
+  margin: 0;
+  padding: 8px 10px;
+  width: 180px;
+  background: #e7f1f8;
+  line-height: 19px;
+  color: #555;
+  border: 1px solid #1672B9;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 2px rgba(15, 82, 135, 0.25), 0 1px 0 rgba(255, 255, 255, 0.15); 
+}
+
+.sign-flow .view .input-wrapper input:focus {
+  background: #fff;
+  outline: 0;
+  box-shadow: inset 0 1px 2px rgba(15, 82, 135, 0.25), 0 0 10px rgba(255, 255, 255, 0.3);
+  border: 1px solid #197CC9; }
+
+.sign-flow .view .input-wrapper input.first,
+.sign-flow .view .input-wrapper input.last {
+  width: 70px; 
+}
+
+.sign-flow .view .input-wrapper input.last {
+  margin-left: 18px; 
+}
+
+.sign-flow .view .input-wrapper input::-webkit-input-placeholder {
+  color: #ccc;
+  -webkit-text-fill-color: #ccc; 
+}
+
+.sign-flow .view .input-wrapper input::-moz-placeholder {
+  color: #ccc;
+  -webkit-text-fill-color: #ccc; 
+}
+
+.sign-flow .view .input-wrapper input:-ms-input-placeholder {
+  color: #ccc;
+  -webkit-text-fill-color: #ccc; 
+}
+
+.sign-flow .view .input-wrapper input::placeholder {
+  color: #ccc;
+  -webkit-text-fill-color: #ccc; 
+}
+
+.sign-flow .view .input-wrapper input[name=verification_code] {
+  width: 200px; 
+}
+
+.sign-flow .view .input-wrapper input[type=number]::-webkit-inner-spin-button,
+.sign-flow .view .input-wrapper input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0; 
+}
+
+.sign-flow .view .input-wrapper input[type=number] {
+  -moz-appearance: textfield; 
+}
+
+.sign-flow .view .input-wrapper .send-code-button {
+  width: 98px;
+  padding: 1em 8px;
+  line-height: 19px;
+  color: #5ca5eb;
+  background: #fff;
+  border: 0;
+  cursor: pointer;
+  outline: 0; }
+
+.sign-flow .view .input-wrapper .send-code-button::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 200px;
+  width: 1px;
+  height: 40px;
+  background: #e9e9e9;
+  -webkit-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  transform: translateY(-20px); 
+}
+
+.sign-flow .view .input-wrapper .send-code-button.disabled {
+  color: #ababab; 
+}
+
+.sign-flow .view .signin-misc-wrapper .remember-me {
+  float: left; 
+}
+
+.sign-flow .view .signin-misc-wrapper .remember-me input {
+  vertical-align: 1px;
+  margin-right: 3px; }
+
+.sign-flow .view .signin-misc-wrapper .signin-switch-button {
+  padding: 0;
+  font-size: 14px;
+  color: #5ca5e8;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  outline: 0; }
+
+.sign-flow .view .signin-misc-wrapper .unable-login {
+  float: right;
+  font-size: 14px; }
+
+.sign-flow .view .failure {
+  display: none;
+  margin-top: 18px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) inset, 0 1px 0 rgba(255, 255, 255, 0.15); }
+
+.sign-flow .view .failure ul {
+  padding: 10px;
+  list-style: none; }
+
+.sign-flow .view .failure li span {
+  color: #9ed8ff;
+  cursor: pointer; }
+
+.sign-flow .view .failure li a {
+  color: #9ed8ff;
+  text-decoration: underline; }
+
+.sign-flow .view .failure li a.hover {
+  color: #fff; }
+
+.sign-flow .view .failure li + li {
+  margin-top: 5px; }
+
+@media (max-width: 740px) {
+  .sign-flow .view {
+    float: none;
+    margin: 0 auto;
+    width: 248px; }
+  .sign-flow .view .input-wrapper,
+  .sign-flow .view .button-wrapper,
+  .sign-flow .view .signin-misc-wrapper,
+  .sign-flow .view .other-signup-wrapper {
+    margin-top: 22px; }
+  .sign-flow .view .input-wrapper input {
+    width: 226px; }
+  .sign-flow .view .other-signup-wrapper .js-bindwechat {
+    display: none; }
+  html.ua-wechat .sign-flow .view .other-signup-wrapper .js-bindwechat {
+    display: inline-block; } }
+
+.sign-flow .view {
+  float: none;
+  margin: auto;
+  width: 300px;
+  text-align: left; }
+
+.sign-flow .view .group-inputs {
+  padding: 1px 0;
+  border: 1px solid #d5d5d5;
+  border-radius: 3px; }
+
+.sign-flow .view .input-wrapper {
+  position: relative;
+  margin: 0;
+  overflow: hidden; }
+
+.sign-flow .view .input-wrapper + .input-wrapper {
+  border-top: 1px solid #e8e8e8; }
+
+.sign-flow .view .input-wrapper input {
+  padding: 1.2em .8em;
+  width: 100%;
+  box-sizing: border-box; 
+  font-family: 'Helvetica Neue',Helvetica,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif;
+}
+
+.sign-flow .view .input-wrapper input,
+.sign-flow .view .input-wrapper input:focus {
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  background: #fff; }
+
+.sign-flow .view .input-wrapper input:-webkit-autofill {
+  box-shadow: 0 0 0 30px #fff inset;
+  -webkit-text-fill-color: #555; }
+
+.sign-flow .sign-button {
+  background: #0f88eb;
+  box-shadow: none;
+  border: 0;
+  border-radius: 3px;
+  line-height: 41px;
+  color: #fff; }
+
+.sign-flow .sign-button:focus,
+.sign-flow .sign-button:hover {
+  background: #55abed; }
+
+.sign-flow .view .button-wrapper {
+  margin-top: 18px; }
+
+.sign-flow .view .agreement-tip {
+  margin-top: 21px;
+  font-size: 13px;
+  text-align: center;
+  color: #999; }
+
+.sign-flow .view .agreement-tip a {
+  color: #698ebf; }
+
+.sign-flow .view .signup-entry--org {
+  display: inline-block;
+  margin-top: 21px;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  color: #0f88eb; }
+
+.sign-flow .view-signup .QRCode {
+  margin-top: 21px; }
+
+[class*=sprite-index-icon-] {
+  display: inline-block;
+  vertical-align: middle; }
+
+.sprite-index,
+[class*=sprite-index-] {
+  background-image: url(../../images/sprites.auto.fe745534.png);
+  background-repeat: no-repeat; }
+
+.sprite-index-icon-arrow {
+  background-position: 0 0;
+  width: 54px;
+  height: 42px; }
+
+.sprite-index-icon-delete {
+  background-position: -22px -44px;
+  width: 16px;
+  height: 16px; }
+
+.sprite-index-icon-mark {
+  background-position: -40px -44px;
+  width: 16px;
+  height: 16px; }
+
+.sprite-index-icon-qq {
+  background-position: -56px 0;
+  width: 20px;
+  height: 18px; }
+
+.sprite-index-icon-refresh {
+  background-position: -58px -44px;
+  width: 16px;
+  height: 16px; }
+
+.sprite-index-icon-wechat {
+  background-position: -56px -20px;
+  width: 20px;
+  height: 18px; }
+
+.sprite-index-icon-weibo {
+  background-position: 0 -44px;
+  width: 20px;
+  height: 18px; }
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .sprite-index,
+  [class*=sprite-index-] {
+    background-image: url(../../images/sprites.auto.fe745534.png);
+    background-size: 76px 62px; } }
+
+.sign-flow .other-signup-wrapper .name {
+  vertical-align: middle;
+  color: #787878;
+  cursor: pointer;
+  font-size: 14px; }
+
+.sign-flow .other-signup-wrapper .name:hover {
+  color: #555; }
+
+.sign-flow .other-signup-wrapper .signup-social-buttons {
+  margin-right: 15px; }
+
+.sign-flow .other-signup-wrapper a {
+  margin: 0 14px 0 0;
+  opacity: .7;
+  -ms-filter: "alpha(Opacity=70)";
+  -webkit-transition: opacity .15s ease-out;
+  transition: opacity .15s ease-out; }
+
+.sign-flow .other-signup-wrapper a:hover {
+  opacity: 1;
+  -ms-filter: "alpha(Opacity=100)"; }
+
+.sign-flow .sns-buttons {
+  display: inline-block;
+  opacity: 0;
+  -ms-filter: "alpha(Opacity=0)";
+  -webkit-transform: translateX(-20px);
+  -ms-transform: translateX(-20px);
+  transform: translateX(-20px);
+  -webkit-transition: opacity .25s ease-out, -webkit-transform .25s ease-out;
+  transition: opacity .25s ease-out, -webkit-transform .25s ease-out;
+  transition: opacity .25s ease-out, transform .25s ease-out;
+  transition: opacity .25s ease-out, transform .25s ease-out, -webkit-transform .25s ease-out;
+  visibility: hidden; 
+
+}
+
+.sign-flow .sns-buttons.is-visible {
+  opacity: 1;
+  -ms-filter: "alpha(Opacity=100)";
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none; 
+}

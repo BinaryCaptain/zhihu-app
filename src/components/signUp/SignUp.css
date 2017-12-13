@@ -1,0 +1,11 @@
+.input-wrapper{
+    position: relative;
+}
+.warning{
+    position: absolute;
+    top: 11px;
+    right:8px;
+    padding: 0 8px;
+    font-size: 14px;
+    color: #c33;
+}

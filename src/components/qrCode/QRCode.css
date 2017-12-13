@@ -1,0 +1,67 @@
+.QRCode {
+  position: relative;
+  z-index: 11; 
+}
+
+.QRCode-toggleButton {
+  display: block;
+  padding: 0;
+  width: 100%;
+  height: 41px;
+  line-height: 39px;
+  color: #5fa6e5;
+  background: 0 0;
+  border: 1px solid #96c2e9;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: 0; 
+}
+
+.QRCode-toggleButton .sprite-index-icon-qrcode {
+  vertical-align: -3px; 
+}
+
+.QRCode-toggleButtonText {
+  font-size: 14px;
+  margin-left: 2px; 
+}
+
+.QRCode-card {
+  display: none;
+  position: absolute;
+  left: -5px;
+  bottom: 68px;
+  width: 310px;
+  height: 310px;
+  color: #555;
+  background-color: #fff;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 10px; }
+
+.QRCode-card .sprite-index-icon-arrow {
+  position: absolute;
+  margin: auto;
+  right: 0;
+  bottom: -14px;
+  left: 0; }
+
+.QRCode-image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 250px;
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(../../images/qr-code.png); 
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+  .QRCode-image {
+    background-image: url(../../images/qr-code@2x.png); 
+  } 
+}

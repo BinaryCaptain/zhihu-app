@@ -1,0 +1,106 @@
+.sign-flow .view-signin .QRCode {
+  margin-top: 24px; 
+}
+
+.qrcode-signin-container {
+  display: none;
+  width: 298px;
+  height: 298px;
+  background: #fff;
+  border: 1px solid #d5d5d5;
+  border-radius: 3px;
+  text-align: center;
+  position: relative;
+  z-index: 10; 
+}
+  .qrcode-signin-container .step1, .qrcode-signin-container .step2, .qrcode-signin-container .failure {
+    padding-left: 15px;
+    padding-right: 15px; }
+  .qrcode-signin-container .step1 {
+    height: 273px;
+    padding-top: 25px; }
+    .qrcode-signin-container .step1 .img-wrapper {
+      margin: 0 auto 14px;
+      width: 150px;
+      height: 150px;
+      text-align: center;
+      position: relative; }
+      .qrcode-signin-container .step1 .img-wrapper img {
+        width: 150px;
+        height: 150px; }
+  .qrcode-signin-container .step2 {
+    padding-top: 70px;
+    display: none; }
+    .qrcode-signin-container .step2 .scan-status {
+      background-image: url(/static/revved/img/index/success.393d87f2.png);
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      width: 58px;
+      height: 58px;
+      margin: 0 auto; }
+    .qrcode-signin-container .step2 .scan-tips {
+      font-size: 16px;
+      color: #000;
+      margin: 12px 0;
+      line-height: 16px;
+      font-weight: 700; }
+  .qrcode-signin-container .failure {
+    display: none; }
+    .qrcode-signin-container .failure .icon {
+      width: 58px;
+      height: 58px;
+      margin: 73px auto 18px;
+      background-image: url(/static/revved/img/index/failure.fe6c3596.png);
+      background-repeat: no-repeat;
+      background-position: 50% 50%; }
+    .qrcode-signin-container .failure .message {
+      width: 250px;
+      margin: 0 auto; }
+  .qrcode-signin-container p {
+    color: #595959;
+    font-size: 13px;
+    line-height: 18px; }
+    .qrcode-signin-container p a {
+      color: #5ca5e8; }
+  .qrcode-signin-container .cut-button {
+    position: absolute;
+    width: 268px;
+    left: 15px;
+    bottom: 0;
+    border-top: 1px solid #d5d5d5;
+    line-height: 46px; }
+    .qrcode-signin-container .cut-button span {
+      color: #5ca5e8;
+      cursor: pointer; }
+  .qrcode-signin-container .guide {
+    width: 318px;
+    height: 307px;
+    position: absolute;
+    left: -288px;
+    top: -4px;
+    background-image: url(../../images/qr-login.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: -1;
+    opacity: 0;
+    -ms-filter: "alpha(Opacity=0)";
+    transition: opacity 0.5s, left 0.5s; }
+  .qrcode-signin-container:hover .guide {
+    opacity: 1;
+    left: -318px;
+    transition: opacity 0.5s, left 0.5s; }
+
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .qrcode-signin-container .scan-status {
+    background-image: url(/static/revved/img/index/success@2x.ea1fbe51.png);
+    background-size: 100%; } }
+
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .qrcode-signin-container .failure-icon {
+    background-image: url(/static/revved/img/index/failure@2x.6e1fb592.png);
+    background-size: 100%; } }
+
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .qrcode-signin-container .guide {
+    background-image: url(../../images/qr-login.png);
+    background-size: 100%; } }
